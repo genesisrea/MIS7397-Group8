@@ -16,5 +16,7 @@ The files are anonymized examples modeled after the real structure of the workfl
 
 Overall Summary 
 Raw Data+Instrument Component List+Lab StandardsàPowerBI with metrics and Rule Based Logic 
+
 DailyLog.xlsxàUsed only during AI prompting to provide environmental context.  
+
 Together these files represent the complete set of inputs required for the AI-assisted system.  
