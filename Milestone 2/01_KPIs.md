@@ -6,7 +6,7 @@ This workflow is designed to improve how quickly and consistently LTS data issue
     - Baseline: Manual emails or missed reviews can delay notification.
     - With workflow: Power Automate sends notifications automatically.
  -Time-to-Review (TTR) - Time required for a technician to gather relevant information and reach an initial assessment of a flagged SPC Event.
-    -Baseline: Technician manually reviews: Previous Runs, Daily Environmental Logs, Carrier Gas Pressures, Instrument History
+    -Baseline: Technician manually reviews: Previous Runs, Daily Environmental Logs, Gas Pressures, Instrument History
     -With workflow: Technician receives event summary, historical trend summary, environmental context, possible causes, and suggested checks. 
 
 
