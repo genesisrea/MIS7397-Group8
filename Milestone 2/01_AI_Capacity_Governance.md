@@ -2,9 +2,9 @@ This project uses AI to support laboratory personnel by interpreting OOC and tre
 
 AI begins its work only after Power BI flags an OOC or trend violation. Within this boundary, AI is allowed to: 
 - Summarize the detected OOC or trend violation 
-- Compare the current event to the past 10‑day baseline 
+- Compare the current event to the previous 10 valid runs 
 - Incorporate environmental conditions such as temperature, humidity, and baseline stability 
-- Identify possible causes (e.g., instrument bias, standard cylinder degradation 
+- Identify possible causes (e.g., instrument bias, standard cylinder degradation), labeled as possible and supported only by supplied data 
 - Suggest recommended next steps 
 - Recommend monitoring when the issue appears minor 
 - Recommend investigation when the issue appears significant 
@@ -20,6 +20,8 @@ AI is not allowed to:
 - Make compliance or production decisions 
 - Decide to discard data 
 - Make any final determination about instrument status 
+- Invent context (environmental readings, maintenance, history) that was not supplied 
+- Receive data-quality-flagged records (these go to data correction, not AI) 
 
 GuardRails 
 - AI can recommend, but it cannot decide. 
